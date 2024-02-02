@@ -3,7 +3,7 @@
 # SCRIPT : DOWNLOAD AND INSTALL XcPlugin Forever
 # ###########################################
 #
-# Command: wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/XC-Code/installer.sh -qO - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/SaberArnane/Download/main/XC-Code/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 
