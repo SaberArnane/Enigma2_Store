@@ -53,7 +53,7 @@ fi
 # Build
 if [ -z "$Pkg" ]; then
     clear
-    echo -e "> ${Red}Nova Store${Color_Off}"
+    echo -e "> ${Red}Novaler${Color_Off}"
     echo
     echo "  1 - Beengo"
     echo "  2 - NovalerTV"
@@ -158,16 +158,16 @@ if [ "$choice" = 7 ] || [ "$choice" = 8 ]; then
     fi
 fi
 
-sleep 0.8sleep 0.8
+sleep 0.8
 sync
 echo ""
 echo ""
 echo "******************************************************"
 echo "**                                                    "
 echo "**    ${PkgName[3]} : ${VerPkg}                       "
-echo -e "**   Script by  : ${Yellow}MOHAMED_OS${Color_Off} "
-echo -e "**   Uploaded by: ${Yellow}Saber-Arnane${Color_Off} "
-echo -e "**   Support    : ${Blue}https://www.novaler.com/${Color_Off} "
+echo -e "**    Script by  : ${Yellow}MOHAMED_OS${Color_Off} "
+echo -e "**    Uploaded by: ${Yellow}Saber-Arnane${Color_Off} "
+echo -e "**    Support    : ${Blue}https://www.novaler.com/${Color_Off} "
 echo "**                                                    "
 echo "******************************************************"
 echo ""
