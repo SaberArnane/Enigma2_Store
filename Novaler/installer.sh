@@ -53,7 +53,7 @@ fi
 # Build
 if [ -z "$Pkg" ]; then
     clear
-    echo -e "> ${Yellow}Novaler${Color_Off}"
+    echo -e "> ${red}Novaler${Color_Off}"
     echo
     echo "  1 - Beengo"
     echo "  2 - NovalerTV"
