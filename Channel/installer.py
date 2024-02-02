@@ -29,8 +29,8 @@ Y = "\033[0;33m"  # yellow (info)
 
 
 class Setting():
-    link = 'https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/'
-    page = 'https://github.com/MOHAMED19OS/Enigma2_Store/tree/main/Channel'
+    link = 'https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Channel/'
+    page = 'https://github.com/SaberArnane/Enigma2_Store/tree/main/Channel'
 
     def __init__(self):
         self.date = datetime.now().strftime("%d-%m-%Y %X")
@@ -51,7 +51,7 @@ Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
  "Y8888P"  888  888 "Y888888 888  888 888  888  "Y8888  888
 """, C, end='')
         print("   Install\n".rjust(30))
-        print("Written by {}MOHAMED_OS{} {}(͡๏̯͡๏){}\n".format(
+        print("Written by {}Saber-Arnane{} {}(͡๏̯͡๏){}\n".format(
             B, C, Y, C).rjust(73), end='')
         print((self.date).rjust(35))
         sleep(2)
