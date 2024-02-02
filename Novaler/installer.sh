@@ -158,15 +158,14 @@ if [ "$choice" = 7 ] || [ "$choice" = 8 ]; then
     fi
 fi
 
-sleep 0.8
+sleep 0.8sleep 0.8
 sync
 echo ""
 echo ""
 echo "******************************************************"
 echo "**                                                    "
 echo "**    ${PkgName[3]} : ${VerPkg}                       "
-echo -e "**    Script by  : ${Yellow}M
-Saber-Arnane${Color_Off} "
+echo -e "**    Script by  : ${Yellow}Saber-Arnane${Color_Off} "
 echo -e "**    Support    : ${Blue}https://www.novaler.com/${Color_Off} "
 echo "**                                                    "
 echo "******************************************************"
@@ -178,4 +177,4 @@ echo -e "${Yellow}" "Device will restart now" "${Color_Off}"
 killall -9 enigma2
 
 wait
-exit 0
+exit
