@@ -51,7 +51,7 @@ Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
  "Y8888P"  888  888 "Y888888 888  888 888  888  "Y8888  888
 """, C, end='')
         print("   Install\n".rjust(30))
-        print("Written by {}MOHAMED_OS{} {}(͡๏̯͡๏){}\n".format(
+        print("Written by {}SaberArnane{} {}(͡๏̯͡๏){}\n".format(
             B, C, Y, C).rjust(73), end='')
         print((self.date).rjust(35))
         sleep(2)
