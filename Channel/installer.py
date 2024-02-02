@@ -63,7 +63,7 @@ Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
                 'User-Agent', 'Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0')
             response = urlopen(req)
             link = response.read().decode('utf-8')
-            data_version = findall('tar.gz["\'],["\']path["\']:["\']Channel/channels_backup_user_(.+?).tar.gz["\']', link)[0]
+            data_version = findall('tar.gz["\'],["\']path["\']:["\']Channel/Channel/channels_backup_user_2024_02_01(.+?).tar.gz["\']', link)[0]
             data_name = findall('tar.gz["\'],["\']path["\']:["\']Channel/(.+?)["\']', link)[0]
             return data_version, data_name
         except HTTPError as e:
