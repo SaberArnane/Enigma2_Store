@@ -12,7 +12,7 @@
 TMPDIR='/tmp'
 PACKAGE='enigma2-plugin-extensions-xcplugin-forever'
 MY_URL='https://patbuweb.com/xcplugin'
-URL_VER='https://raw.githubusercontent.com/MOHAMED19OS/Download/main/XC-Code'
+URL_VER='https://raw.githubusercontent.com/SaberArnane/Download/main/XC-Code'
 
 #################
 # Check Version #
