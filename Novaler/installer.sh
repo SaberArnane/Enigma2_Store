@@ -59,7 +59,7 @@ if [ -z "$Pkg" ]; then
     echo "  2 - NovalerTV"
     echo "  3 - SupTV"
     echo "  4 - UltraCam"
-    echo "  5 - Novacam pro"
+    echo "  5 - Novacampro"
     echo "  6 - Novaler Store"
     echo "  7 - NovaCam Supreme"
     echo "  8 - NovaCam SupTV Supreme"
@@ -105,8 +105,7 @@ elif [ "$choice" = 3 ]; then # SupTV
     VerPkg='5.0-r0'
 elif [ "$choice" = 4 ]; then # UltraCam
     VerPkg='2.2-r0'
-elif [ "$choice" = 5 ]; then # Novacam Pro
-
+elif [ "$choice" = 5 ]; then # Novacampro
     VerPkg='1.0-r0'
 elif [ "$choice" = 6 ]; then # Novaler Store
     VerPkg='2.0-r0'
