@@ -50,9 +50,10 @@ d88P  Y88b 888                                          888
 Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
  "Y8888P"  888  888 "Y888888 888  888 888  888  "Y8888  888
 """, C, end='')
-        print("   Install\n".rjust(30))  
+        print("   Install\n".rjust(30)) 
+        echo -e "**    Script by  : ${Yellow}MOHAMED_OS${Color_Off} "
         print("Written by {}Saber-Arnane{} {}(͡๏̯͡๏){}\n".format(
-            B, C, Y, C).rjust(73), end='')
+          B, C, Y, C).rjust(73), end='')
         print((self.date).rjust(35))
         sleep(2)
               
