@@ -51,14 +51,14 @@ Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
  "Y8888P"  888  888 "Y888888 888  888 888  888  "Y8888  888
 """, C, end='')
         print("   Install\n".rjust(30)) 
-        print("              ** Script by: MOHAMED_OS **")
-        print("===========================================================")
+        print("                ** Script by: MOHAMED_OS **")
+        print("============================================================")
     
         print("Written by {}Saber-Arnane{} {}(͡๏̯͡๏){}\n".format(
           B, C, Y, C).rjust(73), end='')
         print((self.date).rjust(41))
         
-        sleep(2)
+    sleep(2)
               
     def info(self):
         try:
