@@ -55,9 +55,9 @@ Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
         print("============================================================")
         print("Written by {}Saber-Arnane{} {}(͡๏̯͡๏){}\n".format(
         B, C, Y, C).rjust(73), end='')
-    print((self.date).rjust(41))
+        print((self.date).rjust(41))
         
-    sleep(1)
+    sleep(2)
               
     def info(self):
         try:
