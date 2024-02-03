@@ -50,13 +50,16 @@ d88P  Y88b 888                                          888
 Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
  "Y8888P"  888  888 "Y888888 888  888 888  888  "Y8888  888
 """, C, end='')
-        print("   Install\n".rjust(30))   
+        print("   Install\n".rjust(30)) 
+        sleep (2)
+        
         print("Script by {}MOHAMED_OS{} {}(͡๏̯͡๏){}\n".format(
             B, C, Y, C).rjust(73), end='')
+        sleep (2)
         
         print("Written by {}Saber-Arnane{} {}($){}\n".format(
-            B, C, Y, C).rjust(40), end='')
-
+            B, C, Y, C).rjust(75), end='')
+        print("    ")
         
         print((self.date).rjust(40))
         sleep(2)
