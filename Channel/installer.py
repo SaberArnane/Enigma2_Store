@@ -57,10 +57,9 @@ Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
             B, C, Y, C).rjust(70), end='')
         print("    "
 
-        sleep (2)       
-        print((self.date).rjust(40))
-        sleep (2)
-
+        print((self.date).rjust(40)
+        sleep(2)
+              
     def info(self):
         try:
             req = Request(self.page)
