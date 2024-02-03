@@ -56,7 +56,6 @@ Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
         print("Written by {}Saber-Arnane{} {}($){}\n".format(
             B, C, Y, C).rjust(74), end='')
         print("    ")
-        
         print((self.date).rjust(40))
         sleep(2)
 
