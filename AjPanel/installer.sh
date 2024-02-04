@@ -82,14 +82,14 @@ fi
 #########################
 rm -rf $TMPDIR/"${PACKAGE:?}"*
 
-sleep 1
+sleep 2
 clear
 echo ""
 echo "***********************************************************************"
 echo "**                                                                    *"
 echo "**                       AjPanel    : $VERSION                        *"
 echo "**                       Uploaded by: Saber_Arnane                    *"
-echo "**                       Develop by : Develop                       *"
+echo "**                       Develop by : Develop                         *"
 echo "**  Support    : https://www.tunisia-sat.com/forums/threads/4226416/  *"
 echo "**                                                                    *"
 echo "***********************************************************************"
