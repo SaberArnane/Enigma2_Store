@@ -4,7 +4,7 @@
 # Configure where we can find things here #
 TMPDIR='/tmp'
 PACKAGE='enigma2-plugin-extensions-plutotv'
-MY_URL='https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/PlutoTV'
+MY_URL='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/PlutoTV'
 
 #########################
 if [ -f /etc/opkg/opkg.conf ]; then
@@ -88,7 +88,7 @@ echo ""
 echo "***********************************************************************"
 echo "**                                                                    *"
 echo "**                       PlutoTV    : $VERSION                        *"
-echo "**                       Uploaded by: MOHAMED_OS                      *"
+echo "**                       Uploaded by: Saber_Arnane                      *"
 echo "**                       Develop by : Billy2011                       *"
 echo "**  Support    : https://www.tunisia-sat.com/forums/threads/4226416/  *"
 echo "**                                                                    *"
