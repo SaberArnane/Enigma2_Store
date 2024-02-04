@@ -3,8 +3,8 @@
 ###########################################
 # Configure where we can find things here #
 TMPDIR='/tmp'
-PACKAGE='enigma2-plugin-extensions-plutotv'
-MY_URL='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/PlutoTV'
+PACKAGE='enigma2-plugin-extensions-ajpanel'
+MY_URL='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel'
 
 #########################
 if [ -f /etc/opkg/opkg.conf ]; then
@@ -69,7 +69,7 @@ elif [ "$OSTYPE" = "DreamOS" ]; then
 fi
 
 #########################
-echo "Insallling PlutoTV plugin Please Wait ......"
+echo "Insallling AjPanel plugin Please Wait ......"
 if [ "$OSTYPE" = "Opensource" ]; then
     wget $MY_URL/${PACKAGE}_"${VERSION}"_all.ipk -qP $TMPDIR
     $OPKGINSTAL $TMPDIR/${PACKAGE}_"${VERSION}"_all.ipk
@@ -88,8 +88,8 @@ echo ""
 echo "***********************************************************************"
 echo "**                                                                    *"
 echo "**                       PlutoTV    : $VERSION                        *"
-echo "**                       Uploaded by: Saber_Arnane                      *"
-echo "**                       Develop by : Billy2011                       *"
+echo "**                       Uploaded by: Saber_Arnane                    *"
+echo "**                       Develop by : Develop                         *"
 echo "**  Support    : https://www.tunisia-sat.com/forums/threads/4226416/  *"
 echo "**                                                                    *"
 echo "***********************************************************************"
