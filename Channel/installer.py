@@ -54,7 +54,7 @@ Y88b  d88P 888  888 888  888 888  888 888  888 Y8b.     888
         print("                 ** Script by: MOHAMED_OS **")
         print("============================================================")
         print("Written by {}Saber-Arnane{} {}(͡๏̯͡๏){}\n".format(
-        B, C, Y, C).rjust(70), end='')
+        B, C, Y, C).rjust(73), end='')
         print((self.date).rjust(41))
         
     sleep(2)
