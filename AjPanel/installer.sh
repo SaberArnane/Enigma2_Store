@@ -16,12 +16,12 @@ Yellow='\e[0;33m'
 ###########################################
 # Configure where we can find things here #
 TMPDIR='/tmp'
-MY_URL='https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/IPtoSAT'
+MY_URL='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel'
 
 #########################
 Develop='ZAKARIYA KHA'
 VERSION='1.8'
-PACKAGE='enigma2-plugin-extensions-iptosat'
+PACKAGE='enigma2-plugin-extensions-ajpanel'
 
 #########################
 if [ -f /etc/opkg/opkg.conf ]; then
@@ -107,9 +107,9 @@ else
 fi
 
 if [ $? -gt 0 ]; then
-    echo -e "${Red}" "error install plugin IPToSat, end" "${Color_Off}"
+    echo -e "${Red}" "error install plugin AjPanel, end" "${Color_Off}"
 else
-    echo -e "${Green}" "install plugin IPToSat" "${Color_Off}"
+    echo -e "${Green}" "install plugin AjPanel" "${Color_Off}"
     for dir in python2 python3; do
         rm -rf "${TMPDIR}"/"${dir:?}"
         sleep 1
@@ -124,8 +124,8 @@ clear
 echo ""
 echo "***********************************************************************"
 echo "**                                                                    *"
-echo "**                       IPtoSAT    : $VERSION                             *"
-echo "**                       Uploaded by: MOHAMED_OS                      *"
+echo "**                       AjPanel    : $VERSION                             *"
+echo "**                       Uploaded by: Saber_Arnane                      *"
 echo "**                       Develop by : $Develop                    *"
 echo "**  Support    : https://www.tunisia-sat.com/forums/threads/4171372/  *"
 echo "**                                                                    *"
