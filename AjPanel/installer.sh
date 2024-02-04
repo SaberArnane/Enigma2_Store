@@ -20,7 +20,7 @@ MY_URL='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel
 
 #########################
 #Develop='ZAKARIYA KHA'
-VERSION='1.8'
+VERSION='9.2'
 PACKAGE='enigma2-plugin-extensions-ajpanel'
 
 #########################
@@ -86,7 +86,7 @@ fi
 
 #########################
 clear
-echo -e "${Yellow}" "Downloading IPToSAT plugin Please Wait ......" "${Color_Off}"
+echo -e "${Yellow}" "Downloading AjPanel plugin Please Wait ......" "${Color_Off}"
 if [ "${OSTYPE}" = "Opensource" ]; then
     wget $MY_URL/${PACKAGE}_"${VERSION}"_all.ipk -qP $TMPDIR
 else
