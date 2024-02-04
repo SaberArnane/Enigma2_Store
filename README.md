@@ -6,6 +6,10 @@ wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma
 # Novaler py3
 sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Novaler/installer.sh -qO -)"
 
+# AjPanel v9.2
+
+wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/installer.sh -qO - | /bin/sh
+
 # Qran
 wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Quran/installer.sh -qO - | /bin/sh
 
