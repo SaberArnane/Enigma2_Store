@@ -19,7 +19,7 @@ TMPDIR='/tmp'
 MY_URL='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel'
 
 #########################
-Develop='ZAKARIYA KHA'
+#Develop='ZAKARIYA KHA'
 VERSION='1.8'
 PACKAGE='enigma2-plugin-extensions-ajpanel'
 
