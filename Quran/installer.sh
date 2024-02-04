@@ -4,7 +4,7 @@
 # Configure where we can find things here #
 TMPDIR='/tmp'
 PACKAGE='enigma2-plugin-extensions-quran-karim'
-MY_URL='https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Quran'
+MY_URL='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Quran'
 
 #################
 # Check Version #
@@ -51,7 +51,7 @@ echo ""
 echo "***********************************************************************"
 echo "**                                                                    *"
 echo "**                       Quran      : $VERSION                             *"
-echo "**                       Uploaded by: MOHAMED_OS                      *"
+echo "**                       Uploaded by: Saber Arnane                      *"
 echo "**                       Develop by : opesboy                         *"
 echo "**  Support    : https://www.tunisia-sat.com/forums/threads/2916962/  *"
 echo "**                                                                    *"
