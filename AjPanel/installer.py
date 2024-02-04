@@ -109,6 +109,6 @@ class SubsSupport():
 
 
 if __name__ == '__main__':
-    build = SubsSupport()
+    build = ajpanel()
     build.main()
     print("\n   Written by {}Saber Arnane{} (͡๏̯͡๏)\n".format(R, C))
