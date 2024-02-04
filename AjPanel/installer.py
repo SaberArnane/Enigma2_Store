@@ -20,10 +20,10 @@ Y = "\033[0;33m"  # yellow (info)
 
 
 class SubsSupport():
-    url = "https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/SubsSupport/"
+    url = "https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/"
 
     def __init__(self):
-        self.package = "enigma2-plugin-extensions-subssupport"
+        self.package = "enigma2-plugin-extensions-ajpanel"
         self.depends = [
             "python-codecs", "python-compression", "python-difflib",
             "python-requests", "python-xmlrpc", "python-zlib", "unrar"]
@@ -76,7 +76,7 @@ class SubsSupport():
         sleep(1)
 
 
-        file = "".join([self.package, '_1.5.8_all.', self.extension])
+        file = "".join([self.package, '_9.2_all.', self.extension])
 
         if self.package_check(self.package):
             print('The plugin is installed: {}{}{}\n'.format(
@@ -111,4 +111,4 @@ class SubsSupport():
 if __name__ == '__main__':
     build = SubsSupport()
     build.main()
-    print("\n   Written by {}MOHAMED_OS{} (͡๏̯͡๏)\n".format(R, C))
+    print("\n   Written by {}Saber Arnane{} (͡๏̯͡๏)\n".format(R, C))
