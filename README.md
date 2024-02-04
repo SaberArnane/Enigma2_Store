@@ -8,3 +8,6 @@ sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/SaberArna
 
 # Qran
 wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Quran/installer.sh -qO - | /bin/sh
+
+# PlutoTV
+wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/PlutoTV/installer.sh -qO - | /bin/sh
