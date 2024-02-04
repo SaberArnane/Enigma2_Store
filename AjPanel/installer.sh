@@ -1,9 +1,9 @@
 #!/bin/bash
 # ###########################################
-# SCRIPT : DOWNLOAD AND INSTALL IPtoSAT
+# SCRIPT : DOWNLOAD AND INSTALL AiPanel
 # ###########################################
 #
-# Command: wget https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/IPtoSAT/installer.sh -qO - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 
