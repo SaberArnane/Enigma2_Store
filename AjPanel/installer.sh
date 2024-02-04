@@ -1,4 +1,6 @@
 #!/bin/bash
+
+###########################################
 # Configure where we can find things here #
 TMPDIR='/tmp'
 PACKAGE='enigma2-plugin-extensions-ajpanel'
