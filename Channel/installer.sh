@@ -64,8 +64,8 @@ if [ -z "$Pkg" ]; then
 
     read -r choice
     case $choice in
-    "1") Pkg=channels_backup_user ;;
-    "2") Pkg=channels_backup_user ;;
+    "1") Pkg=enigma2-plugin-extensions-channel-allsat ;;
+    "2") Pkg=enigma2-plugin-extensions-channel-3sat ;;
 
     x)
         clear
@@ -85,7 +85,7 @@ fi
 ####################
 
 if [ "$choice" = 1 ] || [ "$choice" = 2 ]; then # Channel Motour | Channel 3 Satellite
-    VerPkg='2.1-r0'
+    VerPkg='2.0-r0'
 fi
 
 IFS='-'
