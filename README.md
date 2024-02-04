@@ -8,7 +8,7 @@ sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/SaberArna
 
 # AjPanel v9.2
 
-wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/installer.sh -qO - | /bin/sh
+wget https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/installer.sh -O - | /bin/sh
 
 # Qran
 wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Quran/installer.sh -qO - | /bin/sh
