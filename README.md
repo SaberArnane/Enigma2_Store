@@ -4,6 +4,8 @@
 wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Channel/installer.py -qO - | python
 
 # Novaler py3
+https://github.com/SaberArnane/Enigma2_Store/issues/1#issue-2117247944
+
 sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Novaler/installer.sh -qO -)"
 
 # AjPanel v9.2
