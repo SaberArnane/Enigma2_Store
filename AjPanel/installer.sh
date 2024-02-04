@@ -1,12 +1,4 @@
 #!/bin/bash
-# ###########################################
-# SCRIPT : DOWNLOAD AND INSTALL AiPanel
-# ###########################################
-#
-# Command: wget https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/installer.sh -qO - | /bin/sh
-#
-# ###########################################
-###########################################
 # Configure where we can find things here #
 TMPDIR='/tmp'
 PACKAGE='enigma2-plugin-extensions-ajpanel'
