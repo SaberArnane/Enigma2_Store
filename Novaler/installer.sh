@@ -60,7 +60,7 @@ if [ -z "$Pkg" ]; then
     echo "  2 - NovalerTV"
     echo "  3 - SupTV"
     echo "  4 - UltraCam"
-    echo "  5 - Chromium2"
+    echo "  5 - Novacam Pro"
     echo "  6 - Novaler Store"
     echo "  7 - NovaCam Supreme"
     echo "  8 - NovaCam SupTV Supreme"
@@ -76,8 +76,8 @@ if [ -z "$Pkg" ]; then
     "1") Pkg=enigma2-plugin-extensions-beengo ;;
     "2") Pkg=enigma2-plugin-extensions-novalertv ;;
     "3") Pkg=enigma2-plugin-extensions-suptv ;;
-    "4") Pkg=enigma2-plugin-extensions-ultracam ;;
-    "5") Pkg=enigma2-plugin-extensions-chromium2 ;;
+    "4") Pkg=enigma2-plugin-extensions-ultrCam ;;
+    "5") Pkg=enigma2-plugin-extensions-novacampro ;;
     "6") Pkg=enigma2-plugin-extensions-novalerstore ;;
     "7") Pkg=enigma2-plugin-extensions-novacam-supreme ;;
     "8") Pkg=enigma2-plugin-extensions-novacam-suptv-supreme ;;
@@ -106,8 +106,8 @@ elif [ "$choice" = 3 ]; then # SupTV
     VerPkg='5.0-r0'
 elif [ "$choice" = 4 ]; then # UltraCam
     VerPkg='2.2-r0'
-elif [ "$choice" = 5 ]; then # Chromium2
-    VerPkg='1.0+20221219-r0'
+elif [ "$choice" = 5 ]; then # novacampro
+    VerPkg='1.0-r0'
 elif [ "$choice" = 6 ]; then # Novaler Store
     VerPkg='2.0-r0'
 elif [ "$choice" = 7 ] || [ "$choice" = 8 ]; then # NovaCam Supreme | NovaCam SupTV Supreme
