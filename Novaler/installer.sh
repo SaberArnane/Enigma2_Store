@@ -1,21 +1,4 @@
 
-
-Code
-Issues
-Pull requests
-BreadcrumbsEnigma2_Store/NovaStore
-/installer.sh
-Latest commit
-author
-MOHAMED_OS
-3 months ago
-History
-Executable File·180 lines (159 loc) · 5.44 KB
-File metadata and controls
-
-Code
-
-Blame
 #!/usr/bin/bash
 # coding BY: MOHAMED_OS
 
