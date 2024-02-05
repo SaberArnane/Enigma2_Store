@@ -53,13 +53,13 @@ fi
 # Build
 if [ -z "$Pkg" ]; then
     clear
-    echo -e "> ${Red}Nova Store${Color_Off}"
+    echo -e "> ${Yellow}Nova Store${Color_Off}"
     echo
     echo "  1 - Beengo"
     echo "  2 - NovalerTV"
     echo "  3 - SupTV"
     echo "  4 - UltraCam"
-    echo "  5 - Novacam Pro"
+    echo "  5 - NovaCam Pro"
     echo "  6 - Novaler Store"
     echo "  7 - NovaCam Supreme"
     echo "  8 - NovaCam SupTV Supreme"
