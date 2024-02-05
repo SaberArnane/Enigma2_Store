@@ -1,3 +1,21 @@
+
+
+Code
+Issues
+Pull requests
+BreadcrumbsEnigma2_Store/NovaStore
+/installer.sh
+Latest commit
+author
+MOHAMED_OS
+3 months ago
+History
+Executable File·180 lines (159 loc) · 5.44 KB
+File metadata and controls
+
+Code
+
+Blame
 #!/usr/bin/bash
 # coding BY: MOHAMED_OS
 
@@ -21,7 +39,7 @@ fi
 ###########################################
 # Configure where we can find things here #
 pyVersion=$(python -c"from sys import version_info; print(version_info[0])")
-SitUrl='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Novaler'
+SitUrl='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/NovaStore'
 TmpDir='/var/volatile/tmp'
 
 ####################
@@ -53,13 +71,13 @@ fi
 # Build
 if [ -z "$Pkg" ]; then
     clear
-    echo -e "> ${Yellow}Novaler${Color_Off}"
+    echo -e "> ${Red}Nova Store${Color_Off}"
     echo
     echo "  1 - Beengo"
     echo "  2 - NovalerTV"
     echo "  3 - SupTV"
     echo "  4 - UltraCam"
-    echo "  5 - Novacampro"
+    echo "  5 - Chromium2"
     echo "  6 - Novaler Store"
     echo "  7 - NovaCam Supreme"
     echo "  8 - NovaCam SupTV Supreme"
@@ -76,7 +94,7 @@ if [ -z "$Pkg" ]; then
     "2") Pkg=enigma2-plugin-extensions-novalertv ;;
     "3") Pkg=enigma2-plugin-extensions-suptv ;;
     "4") Pkg=enigma2-plugin-extensions-ultracam ;;
-    "5") Pkg=enigma2-plugin-extensions-novacampro ;;
+    "5") Pkg=enigma2-plugin-extensions-chromium2 ;;
     "6") Pkg=enigma2-plugin-extensions-novalerstore ;;
     "7") Pkg=enigma2-plugin-extensions-novacam-supreme ;;
     "8") Pkg=enigma2-plugin-extensions-novacam-suptv-supreme ;;
@@ -105,15 +123,15 @@ elif [ "$choice" = 3 ]; then # SupTV
     VerPkg='5.0-r0'
 elif [ "$choice" = 4 ]; then # UltraCam
     VerPkg='2.2-r0'
-elif [ "$choice" = 5 ]; then # Novacampro
-    VerPkg='1.0-r0'
+elif [ "$choice" = 5 ]; then # Chromium2
+    VerPkg='1.0+20221219-r0'
 elif [ "$choice" = 6 ]; then # Novaler Store
     VerPkg='2.0-r0'
 elif [ "$choice" = 7 ] || [ "$choice" = 8 ]; then # NovaCam Supreme | NovaCam SupTV Supreme
     VerPkg='9.1-r0'
-elif [ "$choice" = 8 ]; then # IPSAT
+elif [ "$choice" = 9 ]; then # IPSAT
     VerPkg='9.0-r0'
-elif [ "$choice" = 9 ]; then # IPAudioPlus
+elif [ "$choice" = 10 ]; then # IPAudioPlus
     VerPkg='3.0-r0'
 fi
 
@@ -126,13 +144,14 @@ if [ "$(opkg list-installed "$Pkg" | awk '{ print $3 }')" = "$VerPkg" ]; then
     echo " You are use the laste Version: $VerPkg"
 
     echo ""
-    echo "******************************************************"
-    echo "**                                                    "
-    echo "**    ${PkgName[3]} : ${VerPkg}                       "
-    echo -e "**    Script by  : ${Yellow}MOHAMED_OS${Color_Off} "
+    echo "********************************************************"
+    echo "**                                                      "
+    echo "**    ${PkgName[3]} : ${VerPkg}                         "
+    echo -e "**    Script by  : ${Yellow}MOHAMED_OS${Color_Off}   "
+    echo -e "**    Upload by  : ${Yellow}Saber Arnane${Color_Off} "
     echo -e "**    Support    : ${Blue}https://www.novaler.com/${Color_Off} "
-    echo "**                                                    "
-    echo "******************************************************"
+    echo "**                                                      "
+    echo "********************************************************"
     echo ""
 
     sleep 2
@@ -162,14 +181,13 @@ sleep 0.8
 sync
 echo ""
 echo ""
-echo "********************************************************"
-echo "*                                                      *"
-echo "*    ${PkgName[3]} : ${VerPkg}                                   *"
-echo -e "*    Script by  : ${Yellow}MOHAMED_OS${Color_Off}                           *"
-echo -e "*    Uploaded by: ${Yellow}Saber-Arnane${Color_Off}                         *"
-echo -e "*    Support    : ${Blue}https://www.novaler.com/${Color_Off}                       *"
-echo "*                                                      *"
-echo "********************************************************"
+echo "******************************************************"
+echo "**                                                    "
+echo "**    ${PkgName[3]} : ${VerPkg}                       "
+echo -e "**    Script by  : ${Yellow}MOHAMED_OS${Color_Off} "
+echo -e "**    Support    : ${Blue}https://www.novaler.com/${Color_Off} "
+echo "**                                                    "
+echo "******************************************************"
 echo ""
 echo ""
 
@@ -178,4 +196,4 @@ echo -e "${Yellow}" "Device will restart now" "${Color_Off}"
 killall -9 enigma2
 
 wait
-exit
+exit 0
