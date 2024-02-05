@@ -22,7 +22,7 @@ fi
 ###########################################
 # Configure where we can find things here #
 pyVersion=$(python -c"from sys import version_info; print(version_info[0])")
-SitUrl='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/NovaStore'
+SitUrl='https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Novaler'
 TmpDir='/var/volatile/tmp'
 
 ####################
