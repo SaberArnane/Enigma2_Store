@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # code: BY MOHAMED_OS
-
+# wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Channel/installer.py -qO - | python
 
 from __future__ import print_function
 
