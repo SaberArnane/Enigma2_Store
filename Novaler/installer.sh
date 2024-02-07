@@ -82,6 +82,16 @@ if [ -z "$Pkg" ]; then
     "8") Pkg=enigma2-plugin-extensions-novacam-suptv-supreme ;;
     "9") Pkg=enigma2-plugin-extensions-ipsat ;;
     "10") Pkg=enigma2-plugin-extensions-ipaudioplus ;;
+    "11") pkg=enigma2-plugin-extensions-beengo-pli ;;
+    "12") Pkg=enigma2-plugin-extensions-novalertv-pli ;;
+    "13") Pkg=enigma2-plugin-extensions-suptv-pli ;;
+    "14") Pkg=enigma2-plugin-extensions-ultrCam-pli ;;
+    "15") Pkg=enigma2-plugin-extensions-novacampro-pli ;;
+    "16") Pkg=enigma2-plugin-extensions-novalerstore-pli ;;
+    "17") Pkg=enigma2-plugin-extensions-novacam-supreme-pli ;;
+    "18") Pkg=enigma2-plugin-extensions-novacam-suptv-supreme-pli ;;
+    "19") Pkg=enigma2-plugin-extensions-ipsat-pli ;;
+    "20") Pkg=enigma2-plugin-extensions-ipaudioplus-pli ;;
     x)
         clear
         echo
@@ -114,6 +124,22 @@ elif [ "$choice" = 7 ] || [ "$choice" = 8 ]; then # NovaCam Supreme | NovaCam Su
 elif [ "$choice" = 9 ]; then # IPSAT
     VerPkg='9.0-r0'
 elif [ "$choice" = 10 ]; then # IPAudioPlus
+    VerPkg='3.0-r0'
+if [ "$choice" = 11 ] || [ "$choice" = 12 ]; then # Beengo pli | NovalerTV pli
+    VerPkg='8.1-r0'        
+elif [ "$choice" = 13 ]; then # SupTV pli pli
+    VerPkg='5.0-r0'
+elif [ "$choice" = 14 ]; then # UltraCam pli
+    VerPkg='2.2-r0'
+elif [ "$choice" = 15 ]; then # novacampro pli
+    VerPkg='1.0-r0'
+elif [ "$choice" = 16 ]; then # Novaler Store pli
+    VerPkg='2.0-r0'
+elif [ "$choice" = 17 ] || [ "$choice" = 18 ]; then # NovaCam Supreme pli | NovaCam SupTV Supreme pli
+    VerPkg='9.1-r0'
+elif [ "$choice" = 19 ]; then # IPSAT pli
+    VerPkg='9.0-r0'
+elif [ "$choice" = 20 ]; then # IPAudioPlus pli
     VerPkg='3.0-r0'
 fi
 
