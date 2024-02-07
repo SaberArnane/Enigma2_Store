@@ -66,7 +66,7 @@ if [ -z "$Pkg" ]; then
     echo "9 - IPSAT                  |  19 - IPSAT Pli"
     echo "10 - IPAudioPlus           |  20 - IPAudioPlus Pli"
     echo
-    echo "  x - Exit"
+    echo "x - Exit"
     echo
     echo "- Enter option:"
 
