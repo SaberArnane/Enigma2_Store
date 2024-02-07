@@ -53,7 +53,7 @@ fi
 # Build
 if [ -z "$Pkg" ]; then
     clear
-    echo -e "> ${Yellow}Nova Store${Color_Off}"
+    echo -e "> ${Yellow}Nova Store (Py3)${Color_Off}"
     echo
     echo "  1 - Beengo"
     echo "  2 - NovalerTV"
