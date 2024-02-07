@@ -55,16 +55,16 @@ if [ -z "$Pkg" ]; then
     clear
     echo -e "> ${Yellow}Nova Store (Py3)${Color_Off}"
     echo
-    echo "1 - Beengo                 |  11 - Beengo Pli"
-    echo "2 - NovalerTV              |  12 - Novaler Tv Pli"
-    echo "3 - SupTV                  |  13 - SupTv Pli"
-    echo "4 - UltraCam               |  14 - UltraCam Pli"
-    echo "5 - NovaCam Pro            |  15 - NovaCam Pro Pli"
-    echo "6 - Novaler Store          |  16 - Novaler Store Pli"
-    echo "7 - NovaCam Supreme        |  17 - NovaCam Supreme Pli"
-    echo "8 - NovaCam SupTV Supreme  |  18 - NovaCam SupTV Superme Pli"
-    echo "9 - IPSAT                  |  19 - IPSAT Pli"
-    echo "10 - IPAudioPlus           |  20 - IPAudioPlus Pli"
+    echo " 1 - Beengo"
+    echo " 2 - NovalerTV"
+    echo " 3 - SupTV"
+    echo " 4 - UltraCam'
+    echo " 5 - NovaCam Pro"
+    echo " 6 - Novaler Store"
+    echo " 7 - NovaCam Supreme"
+    echo " 8 - NovaCam SupTV Supreme"
+    echo " 9 - IPSAT"
+    echo "10 - IPAudioPlus"
     echo
     echo "x - Exit"
     echo
@@ -82,17 +82,7 @@ if [ -z "$Pkg" ]; then
     "8") Pkg=enigma2-plugin-extensions-novacam-suptv-supreme ;;
     "9") Pkg=enigma2-plugin-extensions-ipsat ;;
     "10") Pkg=enigma2-plugin-extensions-ipaudioplus ;;
-    "11") pkg=enigma2-plugin-extensions-beengo-pli ;;
-    "12") Pkg=enigma2-plugin-extensions-novalertv-pli ;;
-    "13") Pkg=enigma2-plugin-extensions-suptv-pli ;;
-    "14") Pkg=enigma2-plugin-extensions-ultrCam-pli ;;
-    "15") Pkg=enigma2-plugin-extensions-novacampro-pli ;;
-    "16") Pkg=enigma2-plugin-extensions-novalerstore-pli ;;
-    "17") Pkg=enigma2-plugin-extensions-novacam-supreme-pli ;;
-    "18") Pkg=enigma2-plugin-extensions-novacam-suptv-supreme-pli ;;
-    "19") Pkg=enigma2-plugin-extensions-ipsat-pli ;;
-    "20") Pkg=enigma2-plugin-extensions-ipaudioplus-pli ;;
-    x)
+       x)
         clear
         echo
         echo -e "${Blue}Goodbye ;)${Color_Off}"
@@ -124,23 +114,8 @@ elif [ "$choice" = 7 ] || [ "$choice" = 8 ]; then # NovaCam Supreme | NovaCam Su
 elif [ "$choice" = 9 ]; then # IPSAT
     VerPkg='9.0-r0'
 elif [ "$choice" = 10 ]; then # IPAudioPlus
-    VerPkg='3.0-r0'
-if [ "$choice" = 11 ] || [ "$choice" = 12 ]; then # Beengo pli | NovalerTV pli
-    VerPkg='8.1-r0'        
-elif [ "$choice" = 13 ]; then # SupTV pli pli
-    VerPkg='5.0-r0'
-elif [ "$choice" = 14 ]; then # UltraCam pli
-    VerPkg='2.2-r0'
-elif [ "$choice" = 15 ]; then # novacampro pli
-    VerPkg='1.0-r0'
-elif [ "$choice" = 16 ]; then # Novaler Store pli
-    VerPkg='2.0-r0'
-elif [ "$choice" = 17 ] || [ "$choice" = 18 ]; then # NovaCam Supreme pli | NovaCam SupTV Supreme pli
-    VerPkg='9.1-r0'
-elif [ "$choice" = 19 ]; then # IPSAT pli
-    VerPkg='9.0-r0'
-elif [ "$choice" = 20 ]; then # IPAudioPlus pli
-    VerPkg='3.0-r0'
+    VerPkg='3.0-r0'        
+elif 
 fi
 
 IFS='-'
