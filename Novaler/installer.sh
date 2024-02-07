@@ -55,16 +55,16 @@ if [ -z "$Pkg" ]; then
     clear
     echo -e "> ${Yellow}Nova Store (Py3)${Color_Off}"
     echo
-    echo "  1 - Beengo                    11 - Pli"
-    echo "  2 - NovalerTV                 12 - Pli"
-    echo "  3 - SupTV                     13 - Pli"
-    echo "  4 - UltraCam                  14 - Pli"
-    echo "  5 - NovaCam Pro               15 - Pli"
-    echo "  6 - Novaler Store             16 - Pli"
-    echo "  7 - NovaCam Supreme           17 - Pli"
-    echo "  8 - NovaCam SupTV Supreme     18 - Pli"
-    echo "  9 - IPSAT                     19 - Pli"
-    echo "  10 - IPAudioPlus              20 - Pli"
+    echo "  1 - Beengo                    11 - Beengo Pli"
+    echo "  2 - NovalerTV                 12 - Novaler Tv Pli"
+    echo "  3 - SupTV                     13 - SupTv Pli"
+    echo "  4 - UltraCam                  14 - UltraCam Pli"
+    echo "  5 - NovaCam Pro               15 - NovaCam Pro Pli"
+    echo "  6 - Novaler Store             16 - Novaler Store Pli"
+    echo "  7 - NovaCam Supreme           17 - NovaCam Supreme Pli"
+    echo "  8 - NovaCam SupTV Supreme     18 - NovaCam SupTV Superme Pli"
+    echo "  9 - IPSAT                     19 - IPSAT Pli"
+    echo "  10 - IPAudioPlus              20 - IPAudioPlus Pli"
     echo
     echo "  x - Exit"
     echo
