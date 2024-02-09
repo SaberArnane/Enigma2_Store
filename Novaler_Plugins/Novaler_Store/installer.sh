@@ -3,7 +3,7 @@
 # SCRIPT : DOWNLOAD AND INSTALL NOVALER-TV
 # ###########################################
 #
-# Command: wget https://raw.githubusercontent.com/emil237/novalertv/main/installer.sh -qO - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/SaberArnane/Novaler_Plugins/Novaler_Store/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 
