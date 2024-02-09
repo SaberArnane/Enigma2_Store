@@ -3,7 +3,7 @@
 # SCRIPT : DOWNLOAD AND INSTALL NOVALER-TV
 # ###########################################
 #
-# Command: wget https://raw.githubusercontent.com/SaberArnane/Novaler_Plugins/Novaler_Store/installer.sh -qO - | /bin/sh
+# Command: wget https://github.com/SaberArnane/Enigma2_Store/raw/main/Novaler_Plugins/Novaler_Store/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 
@@ -71,8 +71,8 @@ sleep 2
 echo ""
 echo "***********************************************************************"
 echo "**                                                                    *"
-echo "**         Novaler_Store   : $VERSION                            *"
-echo "**   >>>>>>>>>>  Uploaded by: Saber Arnane                            *"
+echo "**         Novaler_Store   : $VERSION                                    *"
+echo "**   >>>>>>>>>>  Uploaded by: Saber Arnane  <<<<<<<<<<                *"
 sleep 4;
 echo "**                                                                    *"
 echo "***********************************************************************"
