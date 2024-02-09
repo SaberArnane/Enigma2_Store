@@ -10,8 +10,8 @@
 ###########################################
 # Configure where we can find things here #
 TMPDIR='/tmp'
-PACKAGE='enigma2-plugin-extensions-novalertv'
-MY_URL='https://raw.githubusercontent.com/emil237/novalertv/main'
+PACKAGE='enigma2-plugin-extensions-novalerstore'
+MY_URL='https://github.com/SaberArnane/Enigma2_Store/raw/main/Novaler_Plugins/Novaler_Store'
 PYTHON_VERSION=$(python -c"import sys; print(sys.version_info.major)")
 
 #################
@@ -71,8 +71,8 @@ sleep 2
 echo ""
 echo "***********************************************************************"
 echo "**                                                                    *"
-echo "**         NovalerTv   : $VERSION                             *"
-echo "**   >>>>>>>>>>  Uploaded by: EMIL_NABiL                     *"
+echo "**         Novaler_Store   : $VERSION                                 *"
+echo "**   >>>>>>>>>>  Uploaded by: Saber Arnane                            *"
 sleep 4;
 echo "**                                                                    *"
 echo "***********************************************************************"
