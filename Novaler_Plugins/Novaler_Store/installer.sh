@@ -1,6 +1,6 @@
 #!/bin/sh
 # ###########################################
-# SCRIPT : DOWNLOAD AND INSTALL NOVALER-TV
+# SCRIPT : DOWNLOAD AND INSTALL Novaler-Store
 # ###########################################
 #
 # Command: wget https://github.com/SaberArnane/Enigma2_Store/raw/main/Novaler_Plugins/Novaler_Store/installer.sh -qO - | /bin/sh
@@ -73,7 +73,7 @@ echo "***********************************************************************"
 echo "**                                                                    *"
 echo "**                     Novaler_Store   : $VERSION                       *"
 echo "**         >>>>>>>>>>  Uploaded by: Saber Arnane  <<<<<<<<<<          *"
-sleep 4;
+sleep 2;
 echo "**                                                                    *"
 echo "***********************************************************************"
 echo ""
