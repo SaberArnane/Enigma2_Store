@@ -1,9 +1,9 @@
 #!/bin/sh
 # ###########################################
-# SCRIPT : DOWNLOAD AND INSTALL NOVALER-TV
+# SCRIPT : DOWNLOAD AND INSTALL NOVALER Store
 # ###########################################
 #
-# Command: wget https://raw.githubusercontent.com/emil237/novalertv/main/installer.sh -qO - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/Novaler Plugins/Novaler Store/main/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 
