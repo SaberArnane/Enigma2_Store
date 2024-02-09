@@ -3,6 +3,9 @@
 # Channel installer
 wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Channel/installer.py -qO - | python
 
+# Novaler Store Plugin
+wget https://github.com/SaberArnane/Enigma2_Store/raw/main/Novaler_Plugins/Novaler_Store/installer.sh -qO - | /bin/sh
+
 # Novaler py3
 
 sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Novaler/installer.sh -qO -)"
