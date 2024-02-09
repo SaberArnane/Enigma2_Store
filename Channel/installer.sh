@@ -53,7 +53,7 @@ fi
 # Build
 if [ -z "$Pkg" ]; then
     clear
-    echo -e "> ${Yellow}Novaler${Color_Off}"
+    echo -e "> ${Yellow}Cahnnels${Color_Off}"
     echo
     echo "  1 - Channel Motour"
     echo "  2 - Cahnnel 3 Satellite"
