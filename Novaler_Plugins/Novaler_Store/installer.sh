@@ -71,8 +71,8 @@ sleep 2
 echo ""
 echo "***********************************************************************"
 echo "**                                                                    *"
-echo "**         Novaler_Store   : $VERSION                                    *"
-echo "**   >>>>>>>>>>  Uploaded by: Saber Arnane  <<<<<<<<<<                *"
+echo "**                     Novaler_Store   : $VERSION                        *"
+echo "**         >>>>>>>>>>  Uploaded by: Saber Arnane  <<<<<<<<<<           *"
 sleep 4;
 echo "**                                                                    *"
 echo "***********************************************************************"
