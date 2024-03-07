@@ -1,11 +1,11 @@
 #!/bin/sh
 # ============================================================================================================
 # SCRIPT : DOWNLOAD AND INSTALL AJPANEL
-# Command: wget https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/installer.sh -O - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh
 # ============================================================================================================
 
 # Server Parameters
-AJP_URL="https://github.com/SaberArnane/Enigma2_Store/raw/main/AjPanel/"		# Custom URL
+AJP_URL="https://raw.githubusercontent.com/biko-73/AjPanel/main/"		# Custom URL
 VER_FILE_NAME='version'									        		# Version File Name on Server
 
 # Header
@@ -14,7 +14,7 @@ echo -e "\n$SEP"
 echo "**                                                                **"
 echo "**                      AJPanel Installation                      **"
 echo "**                                                                **"
-echo "**                      Uploaded by: Saber_Arnane                 **"
+echo "**                      Uploaded by: Biko_73                      **"
 echo "**  Support: https://www.tunisia-sat.com/forums/threads/4165512/  **"
 echo "**                                                                **"
 echo -e "$SEP\n"
@@ -24,7 +24,7 @@ echo -e "$SEP\n"
 echo 'Checking Server Version ...'
 AJP_VER_TMP="/tmp/"$VER_FILE_NAME
 rm -f $AJP_VER_TMP > /dev/null 2>&1
-wget --no-check-certificate -q -T 2 -O "/tmp/"$VER_FILE_NAME $AJP_URL$VER_FILE_NAME
+wget --no-check-certificate -T 2 -O "/tmp/"$VER_FILE_NAME $AJP_URL$VER_FILE_NAME
 
 # Download/Install
 RES=1
