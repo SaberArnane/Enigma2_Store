@@ -11,7 +11,7 @@
 # Configure where we can find things here #
 TMPDIR='/tmp'
 PACKAGE='enigma2-plugin-extensions-novalerstore'
-MY_URL='https://github.com/SaberArnane/Enigma2_Store/main/Novaler_Plugins/Novaler_Store'
+MY_URL='https://raw.github.com/SaberArnane/Enigma2_Store/main/Novaler_Plugins/Novaler_Store'
 PYTHON_VERSION=$(python -c"import sys; print(sys.version_info.major)")
 
 #################
