@@ -3,7 +3,7 @@
 # SCRIPT : DOWNLOAD AND INSTALL Novaler-Store
 # ###########################################
 #
-# Command: wget https://github.com/SaberArnane/Enigma2_Store/raw/main/Novaler_Plugins/Novaler_Store/installer.sh -qO - | /bin/sh
+# Command: wget https://github.com/SaberArnane/Enigma2_Store/main/Novaler_Plugins/Novaler_Store/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 
