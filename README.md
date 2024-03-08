@@ -9,7 +9,7 @@ https://github.com/SaberArnane/Enigma2_Store/raw/main/Novaler_Plugins/Novaler_St
 
 # Novaler Plugins py3 
 
-sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Novaler/installer.sh -qO -)"
+sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/NovaStore/installer.sh -qO -)"
 
 # AjPanel v9.3.1
 
