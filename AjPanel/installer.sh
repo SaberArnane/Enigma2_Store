@@ -5,7 +5,7 @@
 # ============================================================================================================
 
 # Server Parameters
-AJP_URL="https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/AjPanel/main/"		# Custom URL
+AJP_URL="https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/"		# Custom URL
 VER_FILE_NAME='version'									        		# Version File Name on Server
 
 # Header
