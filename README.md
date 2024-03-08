@@ -4,7 +4,7 @@
 wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Channel/installer.py -qO - | python
 
 # Novaler Store 
-sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/NovaStore/installer.sh -qO -)"
+sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/Novaler/installer.sh -qO -)"
 
 # Novaler Plugins py3 
 
