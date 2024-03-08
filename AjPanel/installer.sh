@@ -1,7 +1,7 @@
 #!/bin/sh
 # ============================================================================================================
 # SCRIPT : DOWNLOAD AND INSTALL AJPANEL
-# Command: wget https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/AjPanel/main/installer.sh -O - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/main/AjPanel/installer.sh -O - | /bin/sh
 # ============================================================================================================
 
 # Server Parameters
