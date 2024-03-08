@@ -1,11 +1,11 @@
 #!/bin/sh
 # ============================================================================================================
 # SCRIPT : DOWNLOAD AND INSTALL AJPANEL
-# Command: wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/AjPanel/main/installer.sh -O - | /bin/sh
 # ============================================================================================================
 
 # Server Parameters
-AJP_URL="https://raw.githubusercontent.com/SaberSrnane/Enigma2_Store/AjPanel/main/"		# Custom URL
+AJP_URL="https://raw.githubusercontent.com/SaberArnane/Enigma2_Store/AjPanel/main/"		# Custom URL
 VER_FILE_NAME='version'									        		# Version File Name on Server
 
 # Header
